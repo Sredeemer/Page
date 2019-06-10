@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    
+
+    <!-- Title Page-->
+    <title>EPSU - UHAS | Registration</title>
+
+    <!-- Icons font CSS-->
+    <link rel="icon" href="img/core-img/EPSU.jpg">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/mian.css" rel="stylesheet" media="all">
+    
+    <!--<link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <!-- ##### Preloader ##### -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <!-- Line -->
+        <div class="line-preloader"></div>
+    </div>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title"> EPSU - UHAS Membership Registration Form</h2>
+                    <form method="POST">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">first name</label>
+                                    <input class="input--style-4" type="text" name="first_name">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">last name</label>
+                                    <input class="input--style-4" type="text" name="last_name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Birthday</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Gender</label>
+                                    <div class="p-t-10">
+                                        <label class="radio-container m-r-45">Male
+                                            <input type="radio" checked="checked" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Female
+                                            <input type="radio" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Email</label>
+                                    <input class="input--style-4" type="email" name="email">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Phone Number</label>
+                                    <input class="input--style-4" type="text" name="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Programme</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="subject">
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Bachelor of Nursing </option>
+                                    <option>Bachelor of Midwifery </option>
+                                    <option>Bachelor of Public Health Nursing </option>
+                                    <option>Medical Degree (MB ChB)</option>
+                                    <option>Bachelor of Physician Assistantship </option>
+                                    <option>Doctor of Pharmacy</option>
+                                    <option>Bachelor of Medical Laboratory </option>
+                                    <option>Bachelor of Dietetics </option>
+                                    <option>Bachelor of Physiotherapy </option>
+                                    <option>Bachelor of Diagnostic Imaging </option>
+                                    <option>Bachelor of Speech, Language and Hearing Sciences</option>
+                                    <option>Medical Biochemistry and Molecular Biology</option>
+                                    <option>Disease Control</option>
+                                    <option>Nutrition</option>
+                                    <option>Health Promotion</option>
+                                    <option>Health Information</option>
+                                    
+
+
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Status</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="subject">
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Fresher </option>
+                                    <option>Continuing Student</option>
+                                    <option>Finalist </option>
+                                    <option>Alumni</option>
+                                    <option>Other </option>
+
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
